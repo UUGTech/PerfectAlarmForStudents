@@ -16,4 +16,4 @@ if __name__ == "__main__":
         fname = choosedocx.choose()
         make_schedule.make_alarm_task(str(args[1]), fname, french_fries_paradise.echo_path())
     else:
-        print("python main.py 05:30   の表記で時刻を指定してください")
+        print("python PerfectAlarm.py 05:30   の表記で時刻を指定してください")
